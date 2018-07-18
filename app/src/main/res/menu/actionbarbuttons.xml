@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/hello1Btn"
+        android:icon="@drawable/horizontaldesign"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/hello2Btn"
+        android:icon="@drawable/verticaldesign"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/favoriteFilmsBtn"
+        android:icon="@drawable/griddesign"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        tools:ignore="MenuTitle" />
+</menu>

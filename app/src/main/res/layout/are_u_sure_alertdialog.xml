@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:background="#ffffff"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/r_u_sure_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do you want to exit??"
+        android:textColor="#7b000000"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/r_u_sure_text"
+    android:gravity="center">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/yes_btn"
+        android:text="YES"
+        android:background="#00ffe100"
+        android:textColor="#7a000000"
+        android:layout_marginRight="5dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/no_btn"
+        android:text="NO"
+        android:background="#37ff00"
+        android:layout_marginLeft="5dp"
+        />
+</LinearLayout>
+
+</RelativeLayout>
