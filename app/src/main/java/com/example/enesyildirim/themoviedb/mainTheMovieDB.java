@@ -29,8 +29,6 @@ public class mainTheMovieDB extends AppCompatActivity {
 
     }
 
-        // This is a try for bitbucket!
-
     @Override
     public void onBackPressed() {
         if (getSupportFragmentManager().getFragments().size() > 1) {
@@ -44,7 +42,6 @@ public class mainTheMovieDB extends AppCompatActivity {
                 }
             });
             cdd.show();
-
         }
     }
 }

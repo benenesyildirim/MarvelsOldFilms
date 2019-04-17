@@ -1,6 +1,5 @@
 package com.example.enesyildirim.themoviedb.Fragments;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -16,16 +15,13 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.LinearLayout;
 import android.widget.Toast;
-
 import com.example.enesyildirim.themoviedb.CustomThings.RecycleAdapter;
 import com.example.enesyildirim.themoviedb.Data.FilmResponse;
 import com.example.enesyildirim.themoviedb.Data.MainData;
 import com.example.enesyildirim.themoviedb.R;
 import com.example.enesyildirim.themoviedb.RetroFit.API;
 import com.example.enesyildirim.themoviedb.RetroFit.RequestInterface;
-
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
